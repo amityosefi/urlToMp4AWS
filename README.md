@@ -19,7 +19,7 @@ Your app should now be running on [localhost:3000](http://localhost:3000/).
 There is test file (test.http) for some examples:
 - First examles are running locally.
 
-- There are two examples running on aws server.
+- The last two examples are running on aws server.
 The first one checks the connection (/check), and the second contains the api that converts a url to mp4 (/converter). 
 There is a problem with "/converter" api in detecting the dependencies of the project in, therefore it's not working yet on aws.
 
