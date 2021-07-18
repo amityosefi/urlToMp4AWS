@@ -1,0 +1,54 @@
+
+post http://localhost:3000/converter
+Content-Type: application/json
+
+{
+    "url": "https://githuhbhbb.com/"
+}
+
+###
+
+post http://localhost:3000/converter
+Content-Type: application/json
+
+{
+    "url": "https://one.co.il/"
+}
+
+###
+
+post http://localhost:3000/converter
+Content-Type: application/json
+
+{
+    "url": "https://google.com/"
+}
+
+###
+
+post http://localhost:3000/converter
+Content-Type: application/json
+
+{
+    "url": "https://walla.co.il/"
+}
+
+###
+
+
+post https://wb819a0xb7.execute-api.eu-central-1.amazonaws.com/dev/check
+Content-Type: application/json
+
+{
+    "url": "https://github.com/"
+}
+
+###
+
+post https://wb819a0xb7.execute-api.eu-central-1.amazonaws.com/dev/converter
+Content-Type: application/json
+
+{
+    "url": "https://github.com/"
+}
+

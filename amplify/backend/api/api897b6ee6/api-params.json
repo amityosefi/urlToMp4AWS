@@ -1,0 +1,55 @@
+{
+    "paths": [
+        {
+            "name": "/check",
+            "lambdaFunction": "check",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/check"
+        },
+        {
+            "name": "/converter",
+            "lambdaFunction": "converter",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/converter"
+        }
+    ],
+    "resourceName": "api897b6ee6",
+    "apiName": "api897b6ee6",
+    "functionArns": [
+        {
+            "lambdaFunction": "check"
+        },
+        {
+            "lambdaFunction": "converter"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-project-dev-131247-authRole",
+        "unAuthRoleName": "amplify-project-dev-131247-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "check",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        },
+        {
+            "category": "function",
+            "resourceName": "converter",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ],
+    "uuid": "e9019479"
+}
