@@ -21,5 +21,5 @@ There is test file (test.http) for some examples:
 
 - The last two examples are running on aws server.
 The first one checks the connection (/check), and the second contains the api that converts a url to mp4 (/converter). 
-There is a problem with "/converter" api in detecting the dependencies of the project in, therefore it's not working yet on aws.
+There is a problem with "/converter" api in detecting the dependencies of the project in, therefore it's not working on aws yet.
 
